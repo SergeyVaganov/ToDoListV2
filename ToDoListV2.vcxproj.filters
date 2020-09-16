@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\FrontEnd">
+      <UniqueIdentifier>{2ce80634-2b7c-4bbc-bef5-326c4abf251f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FrontEnd">
+      <UniqueIdentifier>{e807e96d-4a0e-4018-9afc-e40d63b9cc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd">
+      <UniqueIdentifier>{862d0d90-2cbf-4e88-8d4d-df542aa34a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd">
+      <UniqueIdentifier>{c03c8e72-828d-4ab6-a7c0-da4fb2b84953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd\Creator">
+      <UniqueIdentifier>{15f3b0f1-265c-436e-8902-c9e8e4576b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd\Creator">
+      <UniqueIdentifier>{e965d8bb-b720-4432-8b45-56a8895dc10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd\Note">
+      <UniqueIdentifier>{7f1ab707-cfd1-4fa6-91f5-eeb1193c3d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd\Note">
+      <UniqueIdentifier>{660eb98d-064f-488a-8dcb-da2d67fb42aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Resurs">
+      <UniqueIdentifier>{ba685b63-dec9-4dfa-a5cf-ef030ca25937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd\CreatorAct">
+      <UniqueIdentifier>{a934bad2-a421-41e5-9ab5-d3cdd4806e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd\Action">
+      <UniqueIdentifier>{7f1a60a0-a4c0-498e-9193-2148c31a1d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd\CreatorAct">
+      <UniqueIdentifier>{55016d5c-bff9-4122-ba19-e703639aa75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd\Action">
+      <UniqueIdentifier>{ff385cf4-46da-4289-bccf-c22ea1d9abeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BackEnd\Core">
+      <UniqueIdentifier>{2d278902-6926-455e-ae19-91da7840af95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BackEnd\Core">
+      <UniqueIdentifier>{2d1b0a18-2839-4a76-a18c-17424b5df2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FrontEnd\Elements">
+      <UniqueIdentifier>{9574311b-7722-4a37-8608-02c242248292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FrontEnd\Windows">
+      <UniqueIdentifier>{f8804556-fb9b-4de9-a004-8064134146a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FrontEnd\Elements">
+      <UniqueIdentifier>{31a45dc7-5ec5-48ee-a911-eca700c1ad57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FrontEnd\Windows">
+      <UniqueIdentifier>{79683ad6-4b10-4c94-886c-d8752e2cca40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ToDoListV2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatNewBase.h">
+      <Filter>Файлы заголовков\BackEnd\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="Creator.h">
+      <Filter>Файлы заголовков\BackEnd\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatorNoteMsg.h">
+      <Filter>Файлы заголовков\BackEnd\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Файлы заголовков\BackEnd\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteMsg.h">
+      <Filter>Файлы заголовков\BackEnd\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков\Resurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков\Resurs</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков\Resurs</Filter>
+    </ClInclude>
+    <ClInclude Include="FonLoop.h">
+      <Filter>Файлы заголовков\BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="GLobalUGI.h">
+      <Filter>Файлы заголовков\FrontEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatorAct.h">
+      <Filter>Файлы заголовков\BackEnd\CreatorAct</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatorActMsg.h">
+      <Filter>Файлы заголовков\BackEnd\CreatorAct</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMsg.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayNote.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassGlobal.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInterface.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Programm.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IFacade.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UseFiles.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>Файлы заголовков\FrontEnd\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldEdit.h">
+      <Filter>Файлы заголовков\FrontEnd\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldTime.h">
+      <Filter>Файлы заголовков\FrontEnd\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ListVeiw.h">
+      <Filter>Файлы заголовков\FrontEnd\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="WndAdd.h">
+      <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WndEdit.h">
+      <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WndArch.h">
+      <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserInterface.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToDoListV2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatNewBase.cpp">
+      <Filter>Исходные файлы\BackEnd\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="Creator.cpp">
+      <Filter>Исходные файлы\BackEnd\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatorNoteMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Исходные файлы\BackEnd\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="FonLoop.cpp">
+      <Filter>Исходные файлы\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Исходные файлы\FrontEnd\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatorAct.cpp">
+      <Filter>Исходные файлы\BackEnd\CreatorAct</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatorActMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\CreatorAct</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="UseFiles.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Programm.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayNote.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInterface.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IFacade.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons.cpp">
+      <Filter>Исходные файлы\FrontEnd\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldEdit.cpp">
+      <Filter>Исходные файлы\FrontEnd\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldTime.cpp">
+      <Filter>Исходные файлы\FrontEnd\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ListVeiw.cpp">
+      <Filter>Исходные файлы\FrontEnd\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="WndAdd.cpp">
+      <Filter>Исходные файлы\FrontEnd\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WndArch.cpp">
+      <Filter>Исходные файлы\FrontEnd\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WndEdit.cpp">
+      <Filter>Исходные файлы\FrontEnd\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IUserInterface.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ToDoListV2.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="ToDoListV2.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
