@@ -14,11 +14,15 @@
 #include "IFacade.h"
 #include "Manager.h"
 
-#include "CreatorAct.h"
-#include "CreatorActMsg.h"
+#include "CreatNewBase.h"
+
 #include "Action.h"
 #include "ActionMsg.h"
+#include "ActMessage.h"
+#include "ActMessageMsg.h"
+#include "SaveComplete.h"
+#include "SaveCompleteMsg.h"
 
-#include "CreatNewBase.h"
+#include "FonLoop.h"
 
 #endif

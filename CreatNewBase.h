@@ -6,6 +6,7 @@
 
 class CreatNewBase {
 private:
+
 public:
 	CreatNewBase() {};
 	std::vector<Note*> newDemoBase();

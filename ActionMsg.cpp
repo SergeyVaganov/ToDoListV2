@@ -4,14 +4,29 @@
 ActionMsg::ActionMsg(Note* note)
 {
 	this->note = note;
+	message = new ActMessageMsg(note);
+	saveCom = new SaveCompleteMsg(note);
 }
 
-int ActionMsg::run()
+ActionMsg::~ActionMsg()
 {
-	iUi->enebleWnd(false); //EnableWindow(hWnd, false);
-	int idYesNo =  MessageBox(iUi->getHwnd(), this->note->getTxt().c_str(), L"Оповещение", MB_YESNO);
-	iUi->enebleWnd(true); // EnableWindow(hWnd, true);
-	return idYesNo;
+	delete message;
+	delete saveCom;
 }
 
+bool ActionMsg::itisOk()
+{
+	if ((userReady == 6) && (flag)) { return true; };
+	return false;
+}
+
+void ActionMsg::messageBox()
+{
+	userReady = message->run();
+}
+
+void ActionMsg::saveComp(bool ok)
+{
+	saveCom->run(ok);
+}
 

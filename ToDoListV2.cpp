@@ -1,14 +1,14 @@
 ﻿#include "ToDoListV2.h"
 #include "GLobalUGI.h"
 #include "ClassGlobal.h"
-#include "FonLoop.h"
+#include <future>
 
 HINSTANCE hInst;
 HWND hWnd;
 IFacade* manager;
 IUserInterface* iUi;
 int idEdit;
-bool FonLoop::flag = true;
+bool flag = true;
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     _In_opt_ HINSTANCE hPrevInstance,
@@ -37,6 +37,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         TranslateMessage(&msg);
         DispatchMessage(&msg);
     }
-    demon.stop();
+    flag = false;
     return (int)msg.wParam;
 }

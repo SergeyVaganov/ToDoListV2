@@ -11,7 +11,7 @@ private:
 public:
     CreatorNoteMsg() {};
     ~CreatorNoteMsg() {};
-    Note* FactoryMethod(int id, std::wstring txt, time_t time, bool status);
+    Note* FactoryMethod(FILE* fileIn, int num);
 
 };
 

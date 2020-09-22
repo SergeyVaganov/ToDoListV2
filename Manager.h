@@ -27,6 +27,7 @@ public:
 	int nextId();
 	Note* getNote(int num);
 
+
 };
 
 #endif

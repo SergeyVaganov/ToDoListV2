@@ -123,7 +123,6 @@ LRESULT WndArch::WndProcArch(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 			SendMessage(hWnd, WM_CLOSE, 0, 0);
 		}
 		break;
-
 		}
 	}
 		break;	
@@ -133,7 +132,6 @@ LRESULT WndArch::WndProcArch(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		break;
 	default:
 		return DefWindowProc(hWnd, uMsg, wParam, lParam);
-
 	}
 	return 0;
 };

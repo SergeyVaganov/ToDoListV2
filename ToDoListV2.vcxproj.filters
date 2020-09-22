@@ -40,14 +40,8 @@
     <Filter Include="Файлы заголовков\Resurs">
       <UniqueIdentifier>{ba685b63-dec9-4dfa-a5cf-ef030ca25937}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\BackEnd\CreatorAct">
-      <UniqueIdentifier>{a934bad2-a421-41e5-9ab5-d3cdd4806e26}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Файлы заголовков\BackEnd\Action">
       <UniqueIdentifier>{7f1a60a0-a4c0-498e-9193-2148c31a1d73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\BackEnd\CreatorAct">
-      <UniqueIdentifier>{55016d5c-bff9-4122-ba19-e703639aa75e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\BackEnd\Action">
       <UniqueIdentifier>{ff385cf4-46da-4289-bccf-c22ea1d9abeb}</UniqueIdentifier>
@@ -99,20 +93,11 @@
     <ClInclude Include="framework.h">
       <Filter>Файлы заголовков\Resurs</Filter>
     </ClInclude>
-    <ClInclude Include="FonLoop.h">
-      <Filter>Файлы заголовков\BackEnd</Filter>
-    </ClInclude>
     <ClInclude Include="MainWnd.h">
       <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
     </ClInclude>
     <ClInclude Include="GLobalUGI.h">
       <Filter>Файлы заголовков\FrontEnd</Filter>
-    </ClInclude>
-    <ClInclude Include="CreatorAct.h">
-      <Filter>Файлы заголовков\BackEnd\CreatorAct</Filter>
-    </ClInclude>
-    <ClInclude Include="CreatorActMsg.h">
-      <Filter>Файлы заголовков\BackEnd\CreatorAct</Filter>
     </ClInclude>
     <ClInclude Include="Action.h">
       <Filter>Файлы заголовков\BackEnd\Action</Filter>
@@ -121,9 +106,6 @@
       <Filter>Файлы заголовков\BackEnd\Action</Filter>
     </ClInclude>
     <ClInclude Include="ArrayNote.h">
-      <Filter>Файлы заголовков\BackEnd\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="ClassGlobal.h">
       <Filter>Файлы заголовков\BackEnd\Core</Filter>
     </ClInclude>
     <ClInclude Include="FileInterface.h">
@@ -162,8 +144,26 @@
     <ClInclude Include="Manager.h">
       <Filter>Файлы заголовков\BackEnd\Core</Filter>
     </ClInclude>
+    <ClInclude Include="ActMessage.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActMessageMsg.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveComplete.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCompleteMsg.h">
+      <Filter>Файлы заголовков\BackEnd\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="FonLoop.h">
+      <Filter>Файлы заголовков\BackEnd\Core</Filter>
+    </ClInclude>
     <ClInclude Include="IUserInterface.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\FrontEnd\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassGlobal.h">
+      <Filter>Файлы заголовков\BackEnd</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -185,17 +185,8 @@
     <ClCompile Include="NoteMsg.cpp">
       <Filter>Исходные файлы\BackEnd\Note</Filter>
     </ClCompile>
-    <ClCompile Include="FonLoop.cpp">
-      <Filter>Исходные файлы\BackEnd</Filter>
-    </ClCompile>
     <ClCompile Include="MainWnd.cpp">
       <Filter>Исходные файлы\FrontEnd\Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="CreatorAct.cpp">
-      <Filter>Исходные файлы\BackEnd\CreatorAct</Filter>
-    </ClCompile>
-    <ClCompile Include="CreatorActMsg.cpp">
-      <Filter>Исходные файлы\BackEnd\CreatorAct</Filter>
     </ClCompile>
     <ClCompile Include="Action.cpp">
       <Filter>Исходные файлы\BackEnd\Action</Filter>
@@ -242,8 +233,23 @@
     <ClCompile Include="Manager.cpp">
       <Filter>Исходные файлы\BackEnd\Core</Filter>
     </ClCompile>
+    <ClCompile Include="ActMessage.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActMessageMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveComplete.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCompleteMsg.cpp">
+      <Filter>Исходные файлы\BackEnd\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="FonLoop.cpp">
+      <Filter>Исходные файлы\BackEnd\Core</Filter>
+    </ClCompile>
     <ClCompile Include="IUserInterface.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\FrontEnd\Windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

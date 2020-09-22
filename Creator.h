@@ -9,7 +9,7 @@ private:
 public:
     Creator() {};
     ~Creator() {};
-    virtual Note* FactoryMethod(int id, std::wstring txt, time_t time, bool status) = 0;
+    virtual Note* FactoryMethod(FILE* fileIn, int num) = 0;
 
 };
 

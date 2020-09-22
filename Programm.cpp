@@ -13,13 +13,12 @@ Programm::Programm()
 		arrayNote->creatDemoBase();
 		fileInter->saveArrayNote(arrayNote->getArr(), L"Demo.dat");		
 		arrayNote->creatNewEmpty();
-		fileInter->saveArrayNote(arrayNote->getArr());
+		fileInter->saveArrayNote(arrayNote->getArr(), L"\0");
 	}
 	else {
 		useFile->setFiles();
 		fileInter->loadArrayNote(arrayNote->getArr());
 	}
-	manager = this->manager;
 }
 
 Programm::~Programm()

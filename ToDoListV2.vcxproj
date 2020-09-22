@@ -141,13 +141,13 @@
   <ItemGroup>
     <ClInclude Include="Action.h" />
     <ClInclude Include="ActionMsg.h" />
+    <ClInclude Include="ActMessage.h" />
+    <ClInclude Include="ActMessageMsg.h" />
     <ClInclude Include="ArrayNote.h" />
     <ClInclude Include="Buttons.h" />
     <ClInclude Include="ClassGlobal.h" />
     <ClInclude Include="CreatNewBase.h" />
     <ClInclude Include="Creator.h" />
-    <ClInclude Include="CreatorAct.h" />
-    <ClInclude Include="CreatorActMsg.h" />
     <ClInclude Include="CreatorNoteMsg.h" />
     <ClInclude Include="FieldEdit.h" />
     <ClInclude Include="FieldTime.h" />
@@ -164,6 +164,8 @@
     <ClInclude Include="NoteMsg.h" />
     <ClInclude Include="Programm.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SaveComplete.h" />
+    <ClInclude Include="SaveCompleteMsg.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToDoListV2.h" />
     <ClInclude Include="UseFiles.h" />
@@ -174,12 +176,12 @@
   <ItemGroup>
     <ClCompile Include="Action.cpp" />
     <ClCompile Include="ActionMsg.cpp" />
+    <ClCompile Include="ActMessage.cpp" />
+    <ClCompile Include="ActMessageMsg.cpp" />
     <ClCompile Include="ArrayNote.cpp" />
     <ClCompile Include="Buttons.cpp" />
     <ClCompile Include="CreatNewBase.cpp" />
     <ClCompile Include="Creator.cpp" />
-    <ClCompile Include="CreatorAct.cpp" />
-    <ClCompile Include="CreatorActMsg.cpp" />
     <ClCompile Include="CreatorNoteMsg.cpp" />
     <ClCompile Include="FieldEdit.cpp" />
     <ClCompile Include="FieldTime.cpp" />
@@ -193,6 +195,8 @@
     <ClCompile Include="Note.cpp" />
     <ClCompile Include="NoteMsg.cpp" />
     <ClCompile Include="Programm.cpp" />
+    <ClCompile Include="SaveComplete.cpp" />
+    <ClCompile Include="SaveCompleteMsg.cpp" />
     <ClCompile Include="ToDoListV2.cpp" />
     <ClCompile Include="UseFiles.cpp" />
     <ClCompile Include="WndArch.cpp" />
